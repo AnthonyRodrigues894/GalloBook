@@ -1,0 +1,17 @@
+Configurar o git:
+git config --global user.name AnthonyRodrigues894
+git config --global user.email anthonyserrano894@gmail.com
+
+criar o projeto ( so usa quando cria dps nunca mais):
+npx create-expo-app@latest GalloBook --template blank
+
+executar o projeto:
+cd GalloBook
+npm i
+npx expo start --localhost --android
+
+instala um pacote web:
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+instalando pacote 
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
